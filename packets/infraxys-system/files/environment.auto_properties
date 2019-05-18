@@ -1,7 +1,5 @@
 environment_db_id=$environment.id
 environment_name=$environment.name
-file_server_ssh_host=localhost
-file_server_directory=/opt/fileserver
 
 #set ($environmentVars = $environment.getEnvironmentVars())
 #foreach ($environmentVar in $environmentVars)
