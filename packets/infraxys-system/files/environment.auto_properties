@@ -1,3 +1,4 @@
+project_name=$container.projectName
 environment_db_id=$environment.id
 environment_name=$environment.name
 

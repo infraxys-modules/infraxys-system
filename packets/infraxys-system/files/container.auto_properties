@@ -1,6 +1,3 @@
-project_name=$container.projectName
-environment_db_id=$environment.id
-environment_name=$environment.name
 container_db_id=$container.id
 container_name=$container.name
 container_description=$container.description
