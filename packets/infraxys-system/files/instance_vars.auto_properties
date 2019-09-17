@@ -1,8 +1,11 @@
-instance_db_id=$instance.id
+instance_db_id=$instance.id;
 #if ($instance.attributes)
 #foreach ($attribute in $instance.attributes)
 #if ($attribute.autoExportToScript == true and $attribute.typeClassName != "byte[]")
-${attribute.name}=${attribute.value.replaceAll("\n", "{CARRIAGE_RETURN}")}
+$attribute.name="$(cat << EOF
+${attribute.value.replaceAll("\n", "{CARRIAGE_RETURN}")}
+EOF
+)";
 #end  
 #end
 #end 
