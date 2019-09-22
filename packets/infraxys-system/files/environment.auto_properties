@@ -1,10 +1,10 @@
-environment_db_id=$environment.id;
-environment_name="$environment.name";
-project_name="$container.projectName";
+export environment_db_id=$environment.id;
+export environment_name="$environment.name";
+export project_name="$container.projectName";
 
 #set ($environmentVars = $environment.getEnvironmentVars())
 #foreach ($environmentVar in $environmentVars)
-$environmentVar.attributeName="$(cat << EOF
+export $environmentVar.attributeName="$(cat << EOF
 $environmentVar.attributeValue
 EOF
 )";
