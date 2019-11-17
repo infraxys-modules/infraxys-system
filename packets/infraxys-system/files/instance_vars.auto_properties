@@ -1,7 +1,7 @@
 export instance_db_id=$instance.id;
 #if ($instance.attributes)
 #foreach ($attribute in $instance.attributes)
-#if ($attribute.autoExportToScript == true and $attribute.typeClassName != "byte[]")
+#if ($attribute.autoExportToScript == true)
 export $attribute.name="$(cat << EOF
 ${attribute.value.replaceAll("\n", "{CARRIAGE_RETURN}")}
 EOF
