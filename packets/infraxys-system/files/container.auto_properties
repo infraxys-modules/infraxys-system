@@ -1,7 +1,10 @@
-container_db_id=$container.id
-container_name=$container.name
-container_description=$container.description
+export container_db_id=$container.id
+export container_name="$container.name";
+export container_description="$container.description";
 
 #foreach ($containerVar in $container.getContainerVars())
-$containerVar.attributeName=$containerVar.attributeValue
+export $containerVar.attributeName="$(cat << EOF
+$containerVar.attributeValue
+EOF
+)";
 #end
