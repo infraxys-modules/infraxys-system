@@ -1,6 +1,5 @@
 export environment_db_id=$environment.id;
 export environment_name="$environment.name";
-export project_name="$container.projectName";
 
 #set ($environmentVars = $environment.getEnvironmentVars())
 #foreach ($environmentVar in $environmentVars)
