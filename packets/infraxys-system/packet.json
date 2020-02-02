@@ -35,6 +35,7 @@
   ],
   "files": [
     {
+      "guid": "b1e47059-2b64-495b-8853-1c019ad914af",
       "filename": "container.auto_properties",
       "includeName": "",
       "menuCaption": "container.auto_properties",
@@ -56,6 +57,7 @@
       "menuPath": ""
     },
     {
+      "guid": "82815cf8-f93c-404f-9d32-1159ce123c64",
       "filename": "environment.auto_properties",
       "includeName": "",
       "menuCaption": "environment.auto_properties",
@@ -77,6 +79,7 @@
       "menuPath": ""
     },
     {
+      "guid": "c8dd653f-1170-48be-966e-7e595f9a1ab8",
       "filename": "environment.sh",
       "includeName": "",
       "menuCaption": "environment.sh",

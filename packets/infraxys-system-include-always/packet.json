@@ -35,6 +35,7 @@
   ],
   "files": [
     {
+      "guid": "15855193-6eb9-4017-ad1f-dba4400e4f06",
       "filename": "init_instance0_runs_first_infraxys_system.sh",
       "menuCaption": "init_instance0_runs_first_infraxys_system.sh",
       "directory": "",
@@ -55,6 +56,7 @@
       "menuPath": ""
     },
     {
+      "guid": "56f23c5d-46b6-424f-a946-9da948077f1d",
       "filename": "instance_vars.auto_properties",
       "includeName": "",
       "menuCaption": "instance_vars.auto_properties",
